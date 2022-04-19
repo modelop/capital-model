@@ -1,0 +1,159 @@
+{
+  "type": "record",
+  "name": "input_schema.avsc",
+  "fields": [
+    {
+      "name": "age",
+      "type": "int",
+      "dataClass": "numerical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "workclass",
+      "type": "string",
+      "dataClass": "categorical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "fnlwgt",
+      "type": "int",
+      "dataClass": "numerical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "education",
+      "type": "string",
+      "dataClass": "categorical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "education-num",
+      "type": "int",
+      "dataClass": "numerical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "marital-status",
+      "type": "string",
+      "dataClass": "categorical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "occupation",
+      "type": "string",
+      "dataClass": "categorical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "relationship",
+      "type": "string",
+      "dataClass": "categorical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "race",
+      "type": "string",
+      "dataClass": "categorical",
+      "role": "predictor",
+      "protectedClass": true,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "sex",
+      "type": "string",
+      "dataClass": "categorical",
+      "role": "predictor",
+      "protectedClass": true,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "capital-gain",
+      "type": "int",
+      "dataClass": "numerical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "capital-loss",
+      "type": "int",
+      "dataClass": "numerical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "hours-per-week",
+      "type": "int",
+      "dataClass": "numerical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "native-country",
+      "type": "string",
+      "dataClass": "categorical",
+      "role": "predictor",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+    {
+      "name": "class",
+      "type": "string",
+      "dataClass": "categorical",
+      "role": "label",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
+    },
+
+
+
+  ]
+}
