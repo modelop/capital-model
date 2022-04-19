@@ -151,6 +151,16 @@
       "driftCandidate": true,
       "specialValues": [],
       "scoringOptional": false
+    },
+    {
+      "name": "predicted_class",
+      "type": "string",
+      "dataClass": "categorical",
+      "role": "score",
+      "protectedClass": false,
+      "driftCandidate": true,
+      "specialValues": [],
+      "scoringOptional": false
     }
   ]
 }
